@@ -4,13 +4,51 @@
             "make": "BMW",
             "model": "I8",
             "year": "2015",
-            "imageURL": "https://cdn2.autoexpress.co.uk/sites/autoexpressuk/files/styles/gallery_adv/public/2018/05/1bmwi8.jpg?itok=HS3kkUNs"
+            "imageURL": "https://cdn2.autoexpress.co.uk/sites/autoexpressuk/files/styles/gallery_adv/public/2018/05/1bmwi8.jpg?itok=HS3kkUNs",
+            "quality": [{
+                "name": "overall",
+                "rating": 1
+            },{
+                "name": "mechanical",
+                "rating": 4 
+            },{
+                "name": "powertrain",
+                "rating": 2
+            },{
+                "name": "body",
+                "rating": 4
+            },{
+                "name": "interior",
+                "rating": 4
+            },{
+                "name": "accessories",
+                "rating": 2
+            }]
         },
         {
             "make": "BMW",
             "model": "M6",
             "year": "2015",
-            "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2017-03-07_Geneva_Motor_Show_0996.JPG/1024px-2017-03-07_Geneva_Motor_Show_0996.JPG" 
+            "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2017-03-07_Geneva_Motor_Show_0996.JPG/1024px-2017-03-07_Geneva_Motor_Show_0996.JPG",
+            "quality": [{
+                "name": "overall",
+                "rating": 1
+            },{
+                "name": "mechanical",
+                "rating": 4 
+            },{
+                "name": "powertrain",
+                "rating": 2
+            },{
+                "name": "body",
+                "rating": 4
+            },{
+                "name": "interior",
+                "rating": 4
+            },{
+                "name": "accessories",
+                "rating": 2
+            }] 
         }
 
     ]
