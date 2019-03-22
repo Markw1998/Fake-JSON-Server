@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CarApiService } from 'src/app/service/car-api.service';
+import { Car } from 'src/Car';
 
 @Component({
   selector: 'app-carlist',
@@ -14,6 +15,11 @@ export class CarlistComponent implements OnInit {
   ngOnInit() {
     this._carAPIService.getCarData().subscribe(carsData =>
       {this.carsData = carsData});
+  }
+
+  addCar(evt: ICar){
+    this.carsData.push(evt);
+    this._carAPIService.addCarData(evt);
   }
 
 }

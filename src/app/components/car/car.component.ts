@@ -8,10 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class CarComponent implements OnInit {
 @Input() carData:ICar;
-
-carImageWidth:number = 300;
+carImageWidth: number = 300;
 
   constructor() { }
+
+  addReview(review:string):boolean{
+    console.log("CarComponent: addReview: review = "+review)
+    this.carData.myReview = review; 
+    return false;
+  }
 
   ngOnInit() {
   }
